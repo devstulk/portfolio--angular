@@ -5,11 +5,11 @@
         background-color: $bg-primary;
 
         a {
-            color: $text-color;
             border-radius: 8px;
-            padding: 5px 10px;
-            margin: 5px 10px;
+            color: $text-color;
             font-size: 14px;
+            margin: 5px 10px;
+            padding: 5px 10px;
 
             &:hover {
                 background-color: $bg-tertiary;
@@ -23,8 +23,8 @@
 
         button {
             border: none;
-            outline: 0;
             box-shadow: none;
+            outline: 0;
 
             .navbar-toggler-icon {
                 background-image: url('./../../../../assets/icons/hamburger.svg');
