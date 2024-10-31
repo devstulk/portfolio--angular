@@ -1,0 +1,35 @@
+@import './../../../../scss/styles.scss';
+
+:host {
+    header {
+        background-color: $bg-primary;
+
+        a {
+            border-radius: 8px;
+            color: $text-color;
+            font-size: 14px;
+            margin: 5px 10px;
+            padding: 5px 10px;
+
+            &:hover {
+                background-color: $bg-tertiary;
+            }
+        }
+
+        .navbar-collapse,
+        .container-fluid {
+            justify-content: end;
+        }
+
+        button {
+            border: none;
+            box-shadow: none;
+            outline: 0;
+
+            .navbar-toggler-icon {
+                background-image: url('./../../../../assets/icons/hamburger.svg');
+                font-size: 15px;
+            }
+        }
+    }
+}
