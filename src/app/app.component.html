@@ -1,18 +1,32 @@
 <app-header></app-header>
 
 <app-section-container bgColorClass="bg-c-primary">
-    Quem sou
+    <div class="who-am-i row py-5">
+        <div class="col-sm-6">
+            <h1>Hi, I am <span class="text-danger">Stulk</span>,</h1>
+            <h1>Web Developer</h1>
+
+            <p>Passionate about creating digital experiences. I build responsive websites and always look for new trends. Let's build something amazing together!</p>
+            <app-link-cta>Contact me</app-link-cta>
+        </div>
+
+        @if (showThumbnail) {
+            <div class="col-sm-6 text-center py-3">
+                <app-thumbnail thumbnail="img/thumbnail.jpg" [width]="180" [height]="180" [hasShadow]="true" />
+            </div>
+        }
+    </div>
 </app-section-container>
 
-<app-section-container bgColorClass="bg-c-secondary">
+<app-section-container bgColorClass="bg-c-secondary py-5">
     Conhecimentos
 </app-section-container>
 
-<app-section-container bgColorClass="bg-c-primary">
+<app-section-container bgColorClass="bg-c-primary py-5">
     Projetos
 </app-section-container>
 
-<app-section-container bgColorClass="bg-c-primary">
+<app-section-container bgColorClass="bg-c-primary py-5">
     Footer
 </app-section-container>
 
