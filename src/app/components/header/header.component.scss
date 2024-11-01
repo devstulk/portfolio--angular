@@ -10,15 +10,24 @@
             font-size: 14px;
             margin: 5px 10px;
             padding: 5px 10px;
+            font-weight: 500;
 
             &:hover {
                 background-color: $bg-tertiary;
+                color: $primary
             }
         }
 
         .navbar-collapse,
         .container-fluid {
             justify-content: end;
+        }
+
+        
+        .container-fluid {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         button {
