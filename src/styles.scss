@@ -9,3 +9,19 @@
 body {
     background-color: $bg-secondary !important;
 }
+
+.text-c-primary {
+    color: $primary;
+}
+
+a.btn-c-primary,
+button.btn-c-primary {
+    background-color: $primary;
+    color: $white;
+
+    &:hover {
+        background-color: $primary;
+        filter: brightness(0.9);
+        color: $white;
+    }
+}
