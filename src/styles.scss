@@ -19,8 +19,11 @@ button.btn-c-primary {
     background-color: $primary;
     color: $white;
 
-    &:hover {
-        background-color: $primary;
+    &:hover,
+    &:focus,
+    &:active,
+    &:focus-visible {
+        background-color: $primary !important; 
         filter: brightness(0.9);
         color: $white;
     }
