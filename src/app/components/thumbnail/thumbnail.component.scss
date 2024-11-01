@@ -1,0 +1,7 @@
+@import './../../../scss/styles.scss';
+
+:host {
+    .thumbnail-shadow {
+        box-shadow: -7px 7px 3px $bg-tertiary; 
+    }
+}
