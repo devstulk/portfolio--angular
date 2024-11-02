@@ -12,11 +12,12 @@ p {
 }
 
 body {
-    background-color: $bg-secondary !important;
+    background-color: $black !important;
 }
 
 .text-c-primary {
     color: $primary;
+    text-shadow: 0px 0px 10px $primary
 }
 
 a.btn-c-primary,

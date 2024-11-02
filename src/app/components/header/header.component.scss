@@ -2,8 +2,6 @@
 
 :host {
     header {
-        background-color: $bg-primary;
-
         a {
             border-radius: 8px;
             color: $text-color;
@@ -13,8 +11,8 @@
             font-weight: 500;
 
             &:hover {
-                background-color: $bg-tertiary;
-                color: $primary
+                color: $primary;
+                text-shadow: 0px 0px 10px $primary
             }
         }
 
