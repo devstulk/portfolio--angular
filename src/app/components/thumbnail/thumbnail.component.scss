@@ -2,6 +2,7 @@
 
 :host {
     .thumbnail-shadow {
-        box-shadow: -7px 7px 3px $bg-tertiary; 
+        border: solid 2px $primary;
+        box-shadow: 0px 0px 10px $primary; 
     }
 }
