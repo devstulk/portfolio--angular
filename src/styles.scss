@@ -6,6 +6,11 @@
     color: $text-color;
 }
 
+a,
+p {
+    font-size: 14px;
+}
+
 body {
     background-color: $bg-secondary !important;
 }
