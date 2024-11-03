@@ -2,23 +2,27 @@
 
 <app-section-container bgColorClass="py-5">
     <div class="who-am-i row">
-        <div class="col-sm-6">
-            <h1>Hi, I am <b class="text-c-primary">STULK</b>,</h1>
-            <h1>Web Developer</h1>
+        <div class="col-sm-6 d-flex flex-column justify-content-around">
+            <div>
+                <h1>Hi, I am <b class="text-c-primary">STULK</b>,</h1>
+                <h1>Web Developer</h1>
+            </div>
 
-            <p>Passionate about creating digital experiences. I build responsive websites and always look for new trends. Let's build something amazing together!</p>
-            <app-link-cta>Contact me</app-link-cta>
+            <div>
+                <p>Passionate about creating digital experiences. I build responsive websites and always look for new trends. Let's build something amazing together!</p>
+                <app-link-cta>Contact me</app-link-cta>
+            </div>
         </div>
 
         @if (showThumbnail) {
             <div class="col-sm-6 text-center py-3">
-                <app-thumbnail thumbnail="img/thumbnail.jpg" [width]="180" [height]="180" [hasShadow]="true" />
+                <app-thumbnail thumbnail="img/thumbnail.jpg" [width]="230" [height]="230" [hasShadow]="true" />
             </div>
         }
     </div>
 </app-section-container>
 
-<app-section-container bgColorClass="py-5">
+<app-section-container bgColorClass="py-3">
     <div class="brands d-flex justify-content-around align-items-center flex-wrap py-2">
         <app-brands icon="fa-brands fa-html5" tooltipText="HTML5"/>
         <app-brands icon="fa-brands fa-css3-alt" tooltipText="CSS3"/>
