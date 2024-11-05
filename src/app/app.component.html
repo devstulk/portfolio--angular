@@ -1,4 +1,4 @@
-<app-header></app-header>
+<app-header/>
 
 <app-section-container bgColorClass="py-5">
     <div class="who-am-i row">
@@ -16,7 +16,7 @@
 
         @if (showThumbnail) {
             <div class="col-sm-6 text-center py-3">
-                <app-thumbnail thumbnail="img/thumbnail.jpg" [width]="230" [height]="230" [hasShadow]="true" />
+                <app-thumbnail thumbnail="img/thumbnail.jpg" [width]="230" [height]="230" [hasShadow]="true" [circle]="true" />
             </div>
         }
     </div>
@@ -34,8 +34,10 @@
     </div>
 </app-section-container>
 
-<app-section-container bgColorClass="py-5">
-    Projetos
+<app-section-container bgColorClass="">
+    <app-project/>
+    <app-project/>
+    <app-project/>
 </app-section-container>
 
 <app-section-container bgColorClass="py-5">
