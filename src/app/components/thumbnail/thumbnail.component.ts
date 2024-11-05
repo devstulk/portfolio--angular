@@ -13,4 +13,5 @@ export class ThumbnailComponent {
   @Input() public width: number = 40;
   @Input() public height: number = 40;
   @Input() public hasShadow: boolean = false;
+  @Input() public circle: boolean = false;
 }

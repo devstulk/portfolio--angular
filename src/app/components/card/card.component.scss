@@ -1,0 +1,21 @@
+@import './../../../scss/styles.scss';
+
+:host {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+
+    a {
+        text-decoration: none;
+    
+        &:hover {
+            color: $primary;
+            text-shadow: 0px 0px 10px $primary
+        }
+    }
+
+    .bg-c-primary {
+        background-color: $primary;
+    }
+}

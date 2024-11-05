@@ -5,6 +5,7 @@ import { SectionContainerComponent } from './components/section-container/sectio
 import { LinkCtaComponent } from './components/link-cta/link-cta.component';
 import { ThumbnailComponent } from './components/thumbnail/thumbnail.component';
 import { BrandsComponent } from './components/brands/brands.component';
+import { ProjectComponent } from './components/project/project.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { BrandsComponent } from './components/brands/brands.component';
     LinkCtaComponent,
     ThumbnailComponent,
     BrandsComponent,
+    ProjectComponent,
   ],
   templateUrl: './app.component.html',
 })
